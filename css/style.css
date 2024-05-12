@@ -11,6 +11,8 @@ li{list-style: none;}
 
 a{text-decoration: none;}
 
+.navbar{background-color: #1d4846de;}
+
 header{background:#316769 url(../images/banner.jpg);
        background-size: cover;
        background-repeat: no-repeat;
@@ -376,4 +378,41 @@ footer .social-menu .nav .nav-item .nav-link:hover{color: #6FB048;}
 footer .social-menu .nav .nav-item .nav-link:focus{color: #6FB048;}
 footer .social-menu .nav .nav-item .nav-link i{}
 
+
+
+
+@media (max-width: 1199px){}
+
+
+@media (max-width: 991px){footer form input{width: 140px;}
+                          footer form{width: 180px;}
+                          footer form button{margin-left: 0;}
+
+                          footer .wapik ul li:nth-child(3){margin: 5px 0;
+                                                           width: 130px;
+                                                           margin-bottom: 0;}
+                          footer .wapik ul li:last-child{margin-left: 0;}}
+
+
+@media (max-width: 767px){footer .wapik ul li:nth-child(3){margin: 5px auto;
+                                                           width: 156px;}
+                          footer .wapik ul li:last-child{margin-left: 10px;}
+                          .download-section .row{height: 60vh;}
+                          .navbar-collapse{background-color: #1d4846de;}
+                          .navbar-collapse .navbar-nav{text-align: right;}
+                           .navbar-collapse .navbar-nav .nav-link{margin-right: 10px;}
+                           header .navbar-nav .nav-item:last-child .nav-link{display: inline-block;}}
+
+
+@media (max-width: 575px){footer .wapik ul li:nth-child(3){margin: 5px auto;
+                                                           width: 156px;}
+                          footer .wapik ul li:last-child{margin-left: 10px;}
+                          .download-section .row{height: 60vh;}
+                          .download-section .download-content h1{font-size: 20px;}
+                          footer .social-menu{margin:0 auto;
+                                              margin-bottom: 10px;}
+                          .navbar-collapse{background-color: #1d4846de;}
+                          .navbar-collapse .navbar-nav{text-align: right;}
+                           .navbar-collapse .navbar-nav .nav-link{margin-right: 10px;}
+                           header .navbar-nav .nav-item:last-child .nav-link{display: inline-block;}}
 
